@@ -15,6 +15,10 @@ namespace AppBackendAPI.Controllers
             _userService = userService;
         }
 
+        /// <summary>
+        /// Devuelve usuarios registrados 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> Get() 
         {
